@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Model checkpoints and binary artifacts
+artifacts/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+distilbert_squad_model/
+
+# Assessment reports and notebooks
+reports/
+notebooks/
+*.pdf
+
+# Testing and coverage caches
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system files
+.DS_Store
+Thumbs.db
